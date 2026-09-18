@@ -133,7 +133,7 @@ whois networkwalks.com
 The command was used to identify information such as the registrar, registration details, expiry information and name servers.
 
 📸 Evidence
-
+![](whois.png)
 
 
 ## Step 2. WhatWeb — Web Technology Fingerprinting
@@ -151,7 +151,7 @@ WP Download Manager 3.3.58
 Other web/server information exposed by the website
 
 📸 Evidence
-
+![](whatweb.png)
 
 
 ## Step 3. Nslookup — Domain to IP Resolution
@@ -165,7 +165,7 @@ Observed IP address:
 192.232.216.135
 
 📸 Evidence
-
+![](nslookup.png)
 
 
 ## Step 4. Curl — HTTP Response Headers
@@ -179,7 +179,7 @@ The response exposed technical information about the web application, including 
 /wp-json/
 
 📸 Evidence
-
+![](curl.png)
 
 
 ## Step 5. Wafw00f — Web Application Firewall Detection
@@ -193,7 +193,7 @@ The observed result identified:
 ModSecurity (SpiderLabs)
 
 📸 Evidence
-
+![](wafwoof.png)
 
 
 ## Step 6. DNSRecon — DNS Enumeration
@@ -215,8 +215,7 @@ Service records
 DNS software information
 
 📸 Evidence
-
-
+![](dnsrecon.png)
 
 ## 💡 Why Footprinting Matters
 
@@ -285,7 +284,7 @@ ipconfig
 This command was used to identify the local IPv4 address and LAN subnet.
 
 📸 Evidence
-
+![](zenm2)
 
 
 Note: The subnet and IP addresses can differ depending on the local network configuration.
@@ -307,37 +306,21 @@ Target: Local LAN subnet
 
 ## Step 4. Number of Live Hosts
 
-The practical example identified:
-
-4 live hosts
-
+I have identified 1 host
 This included the PC used for the scan.
+![](zenm2)
 
 ## Step 5. IP Addresses of Live Hosts
 
-The example results provided the following IP addresses:
-
-10.0.0.1
-10.0.0.4
-10.0.0.19
-10.0.0.5
-
-⚠️ Important: These are the example results provided in the practical. For the final submission, they should be replaced with the actual results from the local LAN being scanned.
+![](zenm2)
 
 ## Step 6. MAC Addresses of Live Hosts
 
-The practical example provided the following MAC addresses:
+The local machine's MAC address was checked using: ipconfig /all
+📸 Evidence
 
-00:50:56:E3:B3:2C
-00:0C:29:C0:94:8F
-00:50:56:E9:64:82
-00-0C-29-40-C0-93
 
-The local machine's MAC address can also be checked using:
 
-ipconfig /all
-
-⚠️ Important: MAC addresses depend on the actual devices present on the local network. The values above are the example results from the practical and should be replaced with actual observed values when required.
 
 ## Step 7. Generate Network Topology
 
@@ -348,7 +331,7 @@ The legend was enabled and the topology was reviewed.
 The topology was then saved as a PDF file.
 
 📸 Evidence
-
+![](zn3.pdf)
 
 
 The generated topology PDF can be included in the final project evidence.
@@ -457,9 +440,6 @@ How the risk can be reduced
 7. Authorized Testing
 
 Most importantly, I learned that reconnaissance and scanning must always be performed within an authorized scope.
-
-📸 Evidence Collected
-
 The project evidence includes screenshots and outputs from:
 
 WHOIS
