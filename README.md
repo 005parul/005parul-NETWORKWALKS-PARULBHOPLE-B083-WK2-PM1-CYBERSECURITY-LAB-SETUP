@@ -474,8 +474,9 @@ Zenmap Ping Scan
 
 Zenmap Topology
 
-## Final Penetration Testing report
-📄![](PentestingReport.pdf) 
+## Final Penetration Testing Report
+
+📄 [View Pentesting Report](PentestingReport.pdf)
 
 
 ## 🔗 Tools & Resources
