@@ -363,68 +363,14 @@ The generated topology PDF can be included in the final project evidence.
 
 🎯 Potential Impact
 
-Risk
-
-1
-
-Web technology information exposed
-
-WordPress and WP Download Manager identified
-
-Exposed technology/version information can assist further security review
-
-Medium
-
-2
-
-Server IP identifiable
-
-Domain resolved to 192.232.216.135
-
-Provides information about the web service location
-
-Low
-
-3
-
-HTTP technical information exposed
-
-HTTP headers and /wp-json/ were exposed
-
-May assist technology fingerprinting and further enumeration
-
-Low
-
-4
-
-WAF technology identifiable
-
-ModSecurity (SpiderLabs) identified
-
-Reveals information about the web application's security architecture
-
-Low
-
-5
-
-DNS infrastructure information exposed
-
-DNS, mail and service-related records identified
-
-Can help build a broader infrastructure profile
-
-Medium
-
-6
-
-Multiple live hosts visible on local network
-
-Four live hosts were identified in the example network
-
-Unknown or unauthorized devices may potentially be present
-
-Medium
-
+| # | 🔎 Risk / Finding | 🧾 Evidence / Observation | 🎯 Potential Impact | ⚠️ Risk Level |
+|---|-------------------|---------------------------|---------------------|---------------|
+| 1 | Web technology information exposed | WordPress and WP Download Manager identified | Exposed technology/version information can assist further security review | 🟠 Medium |
+| 2 | Server IP identifiable | Domain resolved to `192.232.216.135` | Provides information about the web service location | 🟢 Low |
+| 3 | HTTP technical information exposed | HTTP headers and `/wp-json/` were exposed | May assist technology fingerprinting and further enumeration | 🟢 Low |
+| 4 | WAF technology identifiable | ModSecurity (SpiderLabs) identified | Reveals information about the web application's security architecture | 🟢 Low |
+| 5 | DNS infrastructure information exposed | DNS, mail and service-related records identified | Can help build a broader infrastructure profile | 🟠 Medium |
+| 6 | Multiple live hosts visible on local network | Four live hosts were identified in the example network | Unknown or unauthorized devices may potentially be present | 🟠 Medium |
 Note: These findings are observations from footprinting and scanning exercises, not confirmed vulnerabilities. No exploitation or vulnerability validation was performed as part of these two modules.
 
 ## 🔐 Security Recommendations
