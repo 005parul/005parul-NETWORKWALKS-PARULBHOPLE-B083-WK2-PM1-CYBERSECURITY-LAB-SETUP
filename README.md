@@ -133,6 +133,7 @@ whois networkwalks.com
 The command was used to identify information such as the registrar, registration details, expiry information and name servers.
 
 📸 Evidence
+
 ![](whois.png)
 
 
@@ -151,6 +152,7 @@ WP Download Manager 3.3.58
 Other web/server information exposed by the website
 
 📸 Evidence
+
 ![](whatweb.png)
 
 
@@ -165,6 +167,7 @@ Observed IP address:
 192.232.216.135
 
 📸 Evidence
+
 ![](nslookup.png)
 
 
@@ -179,6 +182,7 @@ The response exposed technical information about the web application, including 
 /wp-json/
 
 📸 Evidence
+
 ![](curl.png)
 
 
@@ -193,6 +197,7 @@ The observed result identified:
 ModSecurity (SpiderLabs)
 
 📸 Evidence
+
 ![](wafwoof.png)
 
 
@@ -215,6 +220,7 @@ Service records
 DNS software information
 
 📸 Evidence
+
 ![](dnsrecon.png)
 
 ## 💡 Why Footprinting Matters
@@ -273,6 +279,7 @@ https://nmap.org/download.html
 
 📸 Evidence
 
+![](zminstall.png)
 
 
 ## Step 2. Find Local IP Address & LAN Subnet
@@ -284,6 +291,7 @@ ipconfig
 This command was used to identify the local IPv4 address and LAN subnet.
 
 📸 Evidence
+
 ![](zenm2)
 
 
@@ -302,23 +310,28 @@ Target: Local LAN subnet
 
 📸 Evidence
 
-![](zminstall.png)
+![](zenm1.png)
 
 
 ## Step 4. Number of Live Hosts
 
 I have identified 1 host
 This included the PC used for the scan.
-![](zenm2)
+📸 Evidence
+
+![](zenm2.png)
 
 ## Step 5. IP Addresses of Live Hosts
+📸 Evidence
 
-![](zenm2)
+![](zenm2.png) 
+
 
 ## Step 6. MAC Addresses of Live Hosts
 
 The local machine's MAC address was checked using: ipconfig /all
 📸 Evidence
+
 ![](MAC.png)
 
 
@@ -331,6 +344,7 @@ The legend was enabled and the topology was reviewed.
 The topology was then saved as a PDF file.
 
 📸 Evidence
+
 ![](zn3.pdf)
 
 
