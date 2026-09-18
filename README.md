@@ -345,7 +345,7 @@ The topology was then saved as a PDF file.
 
 📸 Evidence
 
-![](zn3.pdf)
+📄 [View Final Penetration Testing Report](W2-PM-FINAL-ParulBhople.pdf)
 
 
 The generated topology PDF can be included in the final project evidence.
