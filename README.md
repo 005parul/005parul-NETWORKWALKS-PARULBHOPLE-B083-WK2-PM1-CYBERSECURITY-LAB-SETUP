@@ -292,7 +292,7 @@ This command was used to identify the local IPv4 address and LAN subnet.
 
 📸 Evidence
 
-![](zenm2)
+![](ipconfig.png)
 
 
 Note: The subnet and IP addresses can differ depending on the local network configuration.
@@ -310,7 +310,7 @@ Target: Local LAN subnet
 
 📸 Evidence
 
-![](zenm1.png)
+![](pingscan.png)
 
 
 ## Step 4. Number of Live Hosts
