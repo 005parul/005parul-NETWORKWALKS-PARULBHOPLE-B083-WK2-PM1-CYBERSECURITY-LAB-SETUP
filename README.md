@@ -474,6 +474,9 @@ Zenmap Ping Scan
 
 Zenmap Topology
 
+## Final Penetration Testing report
+📄 [View PDF](W2-PM-FINAL -ParulBhople.docx.pdf)
+
 ## 🔗 Tools & Resources
 
 Nmap / Zenmap: https://nmap.org/download.html
