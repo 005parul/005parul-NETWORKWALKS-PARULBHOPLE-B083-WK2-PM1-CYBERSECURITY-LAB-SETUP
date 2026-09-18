@@ -302,6 +302,7 @@ Target: Local LAN subnet
 
 📸 Evidence
 
+![](zminstall.png)
 
 
 ## Step 4. Number of Live Hosts
@@ -318,8 +319,7 @@ This included the PC used for the scan.
 
 The local machine's MAC address was checked using: ipconfig /all
 📸 Evidence
-
-
+![](MAC.png)
 
 
 ## Step 7. Generate Network Topology
